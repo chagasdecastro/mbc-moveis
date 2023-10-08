@@ -1,50 +1,123 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang = "pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset = "UTF-8">
+    <meta name    = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel     = "stylesheet" href  = "styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100&display=swap" rel="stylesheet">
     <title>MBC Móveis</title>
 </head>
 <body>
     <header>
-        <h1>MBC Móveis</h1>
         <nav>
-            <button>Menu</button>
+            <div class = "logo">
+            <img src   = "img/logotopo.png" alt = "Logo">
+            </div>
             <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Depoimentos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href = "#inicio">Início</a></li>
+                <li><a href = "#sobre">Sobre</a></li>
+                <li><a href = "#servicos">Serviços</a></li>
+                <li><a href = "#projetos">Projetos</a></li>
+                <li><a href = "#depoimentos">Depoimentos</a></li>
+                <li><a href = "#contato">Contato</a></li>
             </ul>
         </nav>
     </header> 
+
+    <section id    = "inicio">
+    <div     class = "image-container">
+    <img     src   = "img/bg.jpg" alt = "MBC Móveis">
+    <div     class = "text-overlay">
+                <h1>MBC Móveis</h1>
+                <p>Móveis planejados, de qualidade</p>
+            </div>
+        </div>
+    </section>
+
     <main>
-        <section #sobre>
+        <section id = "sobre">
             <header>Sobre</header>
             <p>
-                Conteudo
+                Conteúdo
             </p>
         </section>
-
+        <section id = "projetos">
+            <header>Projetos</header>
+            <div class = "projeto">
+            <img src   = "projeto1.jpg" alt = "Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1</p>
+            </div>
+            <div class = "projeto">
+            <img src   = "projeto1.jpg" alt = "Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1</p>
+            </div>
+            <div class = "projeto">
+            <img src   = "projeto1.jpg" alt = "Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1</p>
+            </div>
+            <div class = "projeto">
+            <img src   = "projeto1.jpg" alt = "Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1</p>
+            </div>
+            <div class = "projeto">
+            <img src   = "projeto1.jpg" alt = "Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1</p>
+            </div>
+            <div class = "projeto">
+            <img src   = "projeto1.jpg" alt = "Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1</p>
+            </div>
+            <div class = "projeto">
+            <img src   = "projeto1.jpg" alt = "Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1</p>
+            </div>
+            <div class = "projeto">
+            <img src   = "projeto1.jpg" alt = "Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1</p>
+            </div>
+            <div class = "projeto">
+            <img src   = "projeto1.jpg" alt = "Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1</p>
+            </div>
+        </section>
+        <section>
+            <h1>Faça seu orçamento</h1>
+            <form   action = "https://formsubmit.co/your@email.com" method = "POST">
+            <input  type   = "text" name                                   = "name" required>
+            <input  type   = "email" name                                  = "email" required>
+            <button type   = "submit">Send</button>
+           </form>
+        </section>
     </main>
     <footer>
         <div>
-            <a href="index.html">MBC Móveis</a>
+            <a href = "index.html">MBC Móveis</a>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sed alias odio sunt perferendis architecto aut, at necessitatibus. Necessitatibus itaque id inventore possimus perferendis animi, maiores quas porro officia asperiores!</p>
         </div>
         <div>
-            <h2>Contato</h2>
-            <li><a href="#" target="_blank">Whatsapp</a></li>
-            <li><a href="#" target="_blank">E-mail</a></li>
-            <li><a href="#" target="_blank">Shopee</a></li>
+            <h2>Contatos</h2>
+            <ul> 
+                <li><a href = "#" target = "_blank">Whatsapp</a></li>
+                <li><a href = "#" target = "_blank">E-mail</a></li>
+                <li><a href = "#" target = "_blank">Shopee</a></li>
+            </ul>
         </div>
         <div>
             2023 - Todos os direitos reservados
         </div>
     </footer>
     
-    <script href="script.js"></script>
+    <script src = "script.js"></script>
 </body>
 </html>
